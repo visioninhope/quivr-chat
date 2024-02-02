@@ -31,7 +31,7 @@ services:
       - 5678:5678 # debug port
 
   redis:
-    image: redis:latest@sha256:a7cee7c8178ff9b5297cb109e6240f5072cdaaafd775ce6b586c3c704b06458e
+    image: redis:latest@sha256:5799ed6f60e1a501204a51e3b1b95b1648fe570562b883b69234f11e9816994b
     container_name: redis
     restart: always
     ports:
